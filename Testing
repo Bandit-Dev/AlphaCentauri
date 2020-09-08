@@ -1,0 +1,6 @@
+LeaveGame.MouseButton1Click:Connect(function()
+	local TeleportService = game:GetService("TeleportService")
+	Notify("Forsaken Hub", "Getaway Place 101", 1)
+	wait(2)
+	TeleportService:Teleport(5663195830, game:GetService("Players").LocalPlayer)
+end)
